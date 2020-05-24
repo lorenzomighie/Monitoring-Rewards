@@ -8,8 +8,6 @@ An implementation of Monitoring Rewards based on the paper
 
 It is developed to be easily integrated with [OpenAI Gym](https://gym.openai.com/) environments.
 
-see
-https://github.com/fabriziocacicia/monitoring_rewards
 
 Experiments are made for the following environment:
  - Cliff Walking 
