@@ -25,4 +25,4 @@ Experiments are made for the following environment and with the following Monito
 - [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Breakout
 
 
-See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring_rewards
+See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring rewards
