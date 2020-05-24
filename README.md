@@ -17,8 +17,8 @@ Experiments are made for the following environment:
 
 ## Install 
 - [flloat](https://github.com/whitemech/flloat) for LTLf formulas and DFA
-- [OpenAI Gym](https://gym.openai.com/) for Taxi, Cartpole and Brekout environments
-- [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Brekout
+- [OpenAI Gym](https://gym.openai.com/) for Taxi, Cartpole and Breakout environments
+- [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Breakout
 
 
 See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring_rewards
