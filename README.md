@@ -11,6 +11,8 @@ It is developed to be easily integrated with [OpenAI Gym](https://gym.openai.com
 
 Experiments are made for the following environment:
  - Cliff Walking 
+    * firstspec
+    * secondspec
  - Taxi  (Gym) 
  - Cartpole 
  - Breakout 
