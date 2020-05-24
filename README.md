@@ -9,11 +9,13 @@ An implementation of Monitoring Rewards based on the paper
 It is developed to be easily integrated with [OpenAI Gym](https://gym.openai.com/) environments.
 
 
-Experiments are made for the following environment:
+Experiments are made for the following environment and with the following Monitoring Rewards:
  - Cliff Walking 
-    * firstspec
-    * secondspec
- - Taxi  (Gym) 
+    * (Not 'cliff' Until 'goal', reward=0, cost=-1, success=1, failure=-100)
+    * (Always Eventually 'safe_path', reward=0, cost=-1, success=0, failure=0)
+ - Taxi Domain
+    * (Eventually('correct_pickup' And 'goal'), reward=0, cost=-1, success=20, failure=0
+    * (Eventually(Always(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
  - Cartpole 
  - Breakout 
 
