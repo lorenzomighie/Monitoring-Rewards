@@ -25,7 +25,7 @@ Experiments are made for the following environment and with the following Monito
 ## Install 
 - [flloat](https://github.com/whitemech/flloat) for LTLf formulas and DFA
 - [OpenAI Gym](https://gym.openai.com/) for Taxi, Cartpole and Breakout environments
-- [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Breakout
+- [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Breakout, these two have to be executed inside the "experiment" folder of baselines library
 
 
 See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring rewards
