@@ -15,7 +15,7 @@ Experiments are made for the following environment and with the following Monito
     * (Always Eventually 'safe_path', reward=0, cost=-1, success=0, failure=0)
  - Taxi Domain
     * (Eventually('correct_pickup' And 'goal'), reward=0, cost=-1, success=20, failure=0
-    * (Eventually(Always(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
+    * (Always(Eventually(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
  - Cartpole 
     * (Not Eventually ('die') , reward=1 , cost=0, success=0 , failure=-10)
  - Breakout 
