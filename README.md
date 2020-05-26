@@ -18,9 +18,9 @@ Experiments are made for the following environment and with the following Monito
     * (Always(Eventually(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
  - Cartpole 
     * (Not Eventually ('die') , reward=1 , cost=0, success=0 , failure=-10)
- - Breakout 
+ - Breakout (fire only version)
     * (Not 'dead' U ('goal')" , reward=0 ,cost=-0.01, success=10 , failure=-10)
-    * (Eventually (Always ('break_brick)), reward=10 ,cost=-0.01, success=0 , failure=0)
+    * (Eventually (Always ('break_brick_ordered)), reward=10 ,cost=-0.01, success=0 , failure=0)
 
 ## Install 
 - [flloat](https://github.com/whitemech/flloat) for LTLf formulas and DFA
