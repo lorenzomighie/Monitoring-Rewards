@@ -2,8 +2,8 @@
 
 Project for Elective in AI - Reasoning Agents
 
-An implementation and applcation of Monitoring Rewards based on the paper
-[Temporal Logic Monitoring Rewards via Transducers](http://www.diag.uniroma1.it/degiacom/papers/2020draft/kr2020dfipr.pdf).
+An implementation and application of Monitoring Rewards based on the paper
+[Temporal Logic Monitoring Rewards via Transducers](http://www.diag.uniroma1.it/degiacom/papers/2020draft/kr2020dfipr.pdf) to specify Non-Markovian Rewards in a Reinforcement Learning setup using Linear Time Logic over finite traces (LTLf) and constructing a Monitor Reward capable of finding the state for which the formula given is temporary true, temporary false, permanently true or permanently false (corresponding to assigning reward, cost, success or failure), based on a trace containing the 'state' as a truth assignment to propositional atoms.
 
 
 It is developed to be easily integrated with [OpenAI Gym](https://gym.openai.com/) environments.
