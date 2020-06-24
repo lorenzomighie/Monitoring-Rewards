@@ -2,8 +2,8 @@
 
 Project for Elective in AI - Reasoning Agents
 
-An implementation of Monitoring Rewards based on the paper
-[Temporal Logic Monitoring Rewards via Transducers](http://www.diag.uniroma1.it/degiacom/papers/2020draft/kr2020dfipr.pdf)
+An implementation and applcation of Monitoring Rewards based on the paper
+[Temporal Logic Monitoring Rewards via Transducers](http://www.diag.uniroma1.it/degiacom/papers/2020draft/kr2020dfipr.pdf).
 
 
 It is developed to be easily integrated with [OpenAI Gym](https://gym.openai.com/) environments.
