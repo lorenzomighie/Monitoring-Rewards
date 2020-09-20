@@ -16,16 +16,10 @@ Experiments are made for the following environment and with the following Monito
  - Taxi Domain
     * (Eventually('correct_pickup' And 'goal'), reward=0, cost=-1, success=20, failure=0
     * (Always(Eventually(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
- - Cartpole 
-    * (Not Eventually ('die') , reward=1 , cost=0, success=0 , failure=-10)
- - Breakout (fire only version)
-    * (Not 'dead' U ('goal')" , reward=0 ,cost=-0.01, success=10 , failure=-10)
-    * (Eventually (Always ('break_brick_ordered)), reward=10 ,cost=-0.01, success=0 , failure=0)
 
 ## Install 
 - [flloat](https://github.com/whitemech/flloat) for LTLf formulas and DFA
-- [OpenAI Gym](https://gym.openai.com/) for Taxi, Cartpole and Breakout environments
-- [OpenAI Baselines](https://github.com/openai/baselines) for Cartpole and Breakout, these two have to be executed inside the 'baselines/deepq/experiments' folder of baselines library
+- [OpenAI Gym](https://gym.openai.com/) 
 
 
 See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring rewards
