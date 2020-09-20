@@ -22,4 +22,4 @@ Experiments are made for the following environment and with the following Monito
 - [OpenAI Gym](https://gym.openai.com/) 
 
 
-See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring rewards and https://github.com/whitemech/LTLf2DFA for a guida into Linear Time Logic and Deterministic Finite state Automaton 
+See also https://github.com/fabriziocacicia/monitoring_rewards for a guide into monitoring rewards and https://github.com/whitemech/LTLf2DFA for a guida into Linear Time Logic and Deterministic Finite state Automaton.
