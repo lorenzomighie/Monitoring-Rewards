@@ -14,8 +14,8 @@ Experiments are made for the following environment and with the following Monito
     * (Not 'cliff' Until 'goal', reward=0, cost=-1, success=1, failure=-100)
     * (Always Eventually 'safe_path', reward=0, cost=-1, success=0, failure=0)
  - Taxi Domain
-    * (Eventually('correct_pickup' And 'goal'), reward=0, cost=-1, success=20, failure=0
-    * (Always(Eventually(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0
+    * (Eventually('correct_pickup' And 'goal'), reward=0, cost=-1, success=20, failure=0)
+    * (Always(Eventually(Not 'illegal_action'), reward=0, cost=-9, success=0, failure=0)
 
 ## Install 
 - [flloat](https://github.com/whitemech/flloat) for LTLf formulas and DFA
